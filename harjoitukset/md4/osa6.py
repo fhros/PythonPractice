@@ -1,6 +1,4 @@
 import random
-# x = random.randint(-1, 1)
-# print(x)
 
 iterator = 0
 N = float(input("pisteiden määrä:"))
