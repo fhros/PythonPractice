@@ -16,7 +16,6 @@ def main():
   yksikkohinta1 = laske_hinta(halkaisija1, hinta1)
   yksikkohinta2 = laske_hinta(halkaisija2, hinta2)
 
-  # Vertailu ja tulostus
   if yksikkohinta1 < yksikkohinta2:
     print("eka pizza on halvempi")
   elif yksikkohinta1 > yksikkohinta2:
