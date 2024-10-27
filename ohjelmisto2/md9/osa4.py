@@ -15,7 +15,7 @@ class Auto:
         matka = self.nopeus * tunnit
         self.matka += matka
 
-def main():
+if __name__ == "__main__":
     autot = []
     for i in range(1, 11):
         huippunopeus = random.randint(100, 200)
@@ -37,6 +37,3 @@ def main():
     print("rekisteritunnus\t huippunopeus\t nykyinen nopeus\t kuljettu matka")
     for auto in autot:
         print(f"{auto.rekkari}\t\t{auto.huippunopeus}\t\t{auto.nopeus}\t\t{auto.matka}")
-
-if __name__ == "__main__":
-    main()
